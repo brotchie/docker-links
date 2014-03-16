@@ -15,11 +15,13 @@ var _extractLinks = function(env) {
       var key   = match[0]
         , alias = match[1]
         , proto = match[2]
+        , name  = env[alias + '_NAME']
         , url   = env[key]
         , url_parts   = parseURL(url)
         , default_url = env[alias + '_PORT'];
 
       return {
+        name: name,
         default: default_url === url,
         url: url,
         alias: alias.toLowerCase(),
@@ -45,7 +47,8 @@ var _processLinks = function(links) {
         port: link.port,
         hostname: link.hostname,
         url: link.url,
-        proto: link.proto
+        proto: link.proto,
+        name: link.name
       });
     }
 

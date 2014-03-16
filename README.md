@@ -60,6 +60,7 @@ Links is then the following object:
     "hostname": "172.17.0.5",
     "url": "tcp://172.17.0.5:6379",
     "proto": "tcp",
+    "name": "romantic_lumiere/db",
     "tcp": {
       "6379": {
         "hostname": "172.17.0.5",
@@ -76,6 +77,7 @@ Links is then the following object:
     "hostname": "172.17.0.2",
     "url": "tcp://172.17.0.2:6379",
     "proto": "tcp",
+    "name": "romantic_lumiere/db_redis",
     "tcp": {
       "6379": {
         "hostname": "172.17.0.2",
