@@ -1,0 +1,28 @@
+{
+  "name": "docker-links",
+  "version": "1.0.0",
+  "description": "Helpers for parsing Docker environment variables when linking containers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test_index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brotchie/docker-links"
+  },
+  "keywords": [
+    "docker"
+  ],
+  "author": "James Brotchie <brotchie@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brotchie/docker-links/issues"
+  },
+  "homepage": "https://github.com/brotchie/docker-links",
+  "devDependencies": {
+    "mocha": "^1.18.0"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
