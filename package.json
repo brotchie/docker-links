@@ -1,7 +1,7 @@
 {
   "name": "docker-links",
   "version": "1.0.0",
-  "description": "Helpers for parsing Docker environment variables when linking containers.",
+  "description": "A helper for parsing Docker link environment variables.",
   "main": "index.js",
   "scripts": {
     "test": "mocha test_index.js"
