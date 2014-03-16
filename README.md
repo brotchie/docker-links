@@ -20,7 +20,7 @@ This library provides a helper `parseLinks` that will parse these environment va
 
 ### Install
 
-Install `docker-links` via npm
+Install `docker-links` via [npm](https://www.npmjs.org/package/docker-links)
 
     $ npm install docker-links
 
