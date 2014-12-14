@@ -5,7 +5,7 @@ var _ = require('lodash')
 /* Each Docker linked port is described by an environment variable
  * of the form %alias%_PORT_%port%_%protocol%. For example: DB_PORT_6579_TCP,
  * or LOG_PORT_7799_UDP. */
-var linkRegex = /^([A-Z0-9_]+)_PORT_[0-9]+_([A-Z0-9]+)$/;
+var linkRegex = /^([A-Z0-9_\.]+)_PORT_[0-9]+_([A-Z0-9]+)$/;
 
 var _extractLinks = function(env) {
   return _(env).keys()
